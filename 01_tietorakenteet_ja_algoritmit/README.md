@@ -18,6 +18,24 @@
 
 Lähtötila: käytetään listaa suomen- ja englanninkielisistä sanoista ja tehdään niille erilaisia operaatioita. Eri versioiden yhteydessä otetaan "leikkimielisesti" aikaa ohjelman suorituksesta.
 
+#### Sanastot
+
+Tällä kurssilla esitetty esimerkki suomen- ja englanninkielisten sanojen käsittelystä on Antti Laaksosen luennon innoittama. https://www.cs.helsinki.fi/u/ahslaaks/tira19/luento1/
+
+* src/englangi.txt
+
+--- 
+
+* src/suomi.txt
+
+Copyright (C) Kotimaisten kielten tutkimuskeskus 2006
+Kotimaisten kielten tutkimuskeskuksen nykysuomen sanalista, versio 1
+Julkaistu 15.12.2006
+
+Sanalista julkaistaan GNU LGPL -lisenssillä.
+Lisenssiteksti luettavissa osoitteessa http://www.gnu.org/licenses/lgpl.html
+
+
 #### 1. Mitkä samat sanat esiintyvät sekä suomen- että englanninkielessä?
 
 Kehitetään algoritmi, jolla käydään läpi kaikki suomenkieliset sanat, ja kutakin sanaa kohden etsitään englanninkielisistä sanoista vastinetta. Lopuksi tulostetaan löydetyt yhteiset sanat.
