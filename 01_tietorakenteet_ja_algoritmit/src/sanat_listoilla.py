@@ -1,25 +1,11 @@
-
-def read_words_to_list(file):
-    words = [] # luodaan tyhjä lista
-
-    for line in file:
-        word = line.strip() # poistetaan rivinvaihto
-        words.append(word)  # lisätään sana sanalistaan
-
-    return words            # palautetaan lista sanoineen
+from wordfiles import get_finnish_words, get_english_words
 
 def main():
-    finnish_file = open('kotus-sanalista-suomi.txt', encoding='utf-8')
-    english_file = open('englanti-UNLICENSED.txt', encoding='utf-8')
+    finnish_words = get_finnish_words()
+    english_words = get_english_words()
 
-    english_words = read_words_to_list(english_file)
-    finnish_words = read_words_to_list(finnish_file)
-
-    finnish_file.close()
-    english_file.close()
-
-    print(len(finnish_words))
-    print(len(english_words))
+    print("Suomenkielisiä sanoja on {0}".format(len(finnish_words)))
+    print("Englanninkielisiä sanoja on {0}".format(len(english_words)))
 
     count = 0
 
