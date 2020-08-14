@@ -18,3 +18,36 @@ Gitin käytöstä tunnilla tehtävät esimerkit koodataan omaan kehityshaaraansa
 * Alustava käsitys Pythonista (https://www.w3schools.com/python/)
 
 Aloitustunnilla voitaisiin antaa jokin lämmittelytehtävä, jotta ainakin ehto- ja toistorakenteet sekä listat olisivat opiskelijoille tuttuja ennen ensimmäistä _varsinaista_ aihetta.
+
+
+
+# VirtualBoxin asennus
+
+## Terminaalin avaaminen
+
+Näppäinyhdistelmä `CTRL + ALT + T`.
+
+## Gitin asennus
+
+```shell
+
+$ sudo apt install git
+$ git clone  https://github.com/haagahelia/swd4tn023.git
+
+```
+
+## Pythonin "asennus"
+
+```shell
+$ sudo apt install python3-pip
+```
+
+## Visual Studio Coden asennus
+
+Ubuntu Software &rarr; Visual Studio Code &rarr; install
+
+Extensions: 
+
+1. Python // koodieditori
+1. Pylint // koodin tarkistus
+1. Rope // refaktorointi
