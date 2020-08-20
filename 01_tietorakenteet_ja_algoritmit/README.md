@@ -14,9 +14,46 @@
 	* hakualgoritmit
 	* järjestämisalgoritmit
 
+### Etukäteismateriaali
+
+Katso video: **What Is an Algorithm?**
+
+Opit käsitteet:
+
+* Selection sort (valintajärjestäminen)
+* Insertion sort (lisäysjärjestäminen)
+* Käsitteet
+	* Sorting
+	* Searching
+	* Shortest path cost
+
+https://youtu.be/PY82qqyWJJs**
+
+---
+
+HYVÄ! Katso video: **What is an algorithm and why should you care?** 
+
+https://youtu.be/CvSOaYi89B4
+
+---
+
+Hyvä! Katso video: **Practical Big-O Notation**
+
+https://youtu.be/e6UZ2kzmmdA
+
+> Big-O notation is how the efficiency of algorithms is typically described. Figuring out the O-notation of an algorithm can look tricky, but as this video shows, for the majority of situations, it's pretty straightforward.
+
+---
+
+Syventävä! Katso video: **Introduction to Big O Notation and Time Complexity**
+
+https://youtu.be/D6xkbGLQesk
+
 ### Teoriaosuus ja demo
 
 Lähtötila: käytetään listaa suomen- ja englanninkielisistä sanoista ja tehdään niille erilaisia operaatioita. Eri versioiden yhteydessä otetaan "leikkimielisesti" aikaa ohjelman suorituksesta.
+
+Lineaarisen haun ja binäärihaun visualisointi: https://www.cs.usfca.edu/~galles/visualization/Search.html
 
 #### Sanastot
 
@@ -46,7 +83,11 @@ Pohditaan sitä, kuinka monta operaatiota edellä mainittu algoritmi pahimmillaa
 
 #### 3. Miten algoritmia voidaan muuttaa, jotta haku veisi vähemmän aikaa
 
-Tutustutaan netin lähteistä erilaisiin hakualgoritmeihin. Niiden yhteydessä katsotaan puolitushaun aikavaatimus ja kokeillaan muuttaa alkuperäinen algoritmi hyödyntämään puolitushakua sanojen etsimiseksi englanninkielisestä listasta &rarr; ohjelman suoritus toivottavasti nopeutuu havaittavasti. O(n*log(n))
+Tutustutaan netin lähteistä erilaisiin hakualgoritmeihin. 
+
+Pythonin `x in list` aikavaatimus on O(n): https://wiki.python.org/moin/TimeComplexity
+
+Niiden yhteydessä katsotaan puolitushaun aikavaatimus ja kokeillaan muuttaa alkuperäinen algoritmi hyödyntämään puolitushakua sanojen etsimiseksi englanninkielisestä listasta &rarr; ohjelman suoritus toivottavasti nopeutuu havaittavasti. O(n*log(n))
 
 #### 4. Miten käytetty tietorakenne vaikuttaa ohjelman nopeuteen?
 
@@ -56,8 +97,25 @@ Viimeisenä pohditaan, mitä eri tietorakenteita listojen lisäksi meillä olisi
 
 Määritellään ongelma uudelleen joukko-opin näkökulmasta: molemmille kielille yhteiset sanat ovat osajoukko. Käyttämällä Pythonin joukkoja haluttu osajoukko saadaan selville ilman yhtään toisto- tai hakuoperaatiota. Vertaillaan jälleen tuloksia suorituskyvyn ja kompleksisuuden näkökulmasta.
 
+Tutustutaan set-tietorakenteen aikavaatimukseen: `x in set` aikavaatimus on O(1). https://wiki.python.org/moin/TimeComplexity
 
-### Tehtävä
+### Ennakkotehtävä 
+
+https://wiki.python.org/moin/TimeComplexity
+
+Videoiden katsominen
+
+monivalintakysymykset:
+
+1. Iso-O -notaatio kuvaa algoritmin suoritusajan pahinta tapausta suhteessa käsiteltävien alkioiden määrään (n). Perustuen etukäteisaineistoon, aseta seuraavat algoritmin tehokkuutta kuvaavat suureet suuruusjärjestykseen tehokkaimmasta vähiten vähiten tehokkaaseen, eli pienimmästä suoritusajasta suurimpaan:
+
+O(1)
+O(n)
+O(log(n))
+O(n*log(n))
+O(n*n)
+
+### Tehtävä 2
 
 * kahden vapaasti valittavan järjestelyalgoritmin toteuttaminen ja niiden vertaileminen kompleksisuuden ja tehokkuuden kannalta
 * Sortataan esimerkiksi samankaltaista sanalistaa, jota käsiteltiin johdannossa

@@ -1,18 +1,18 @@
 KOTIMAISTEN KIELTEN TUTKIMUSKESKUKSEN NYKYSUOMEN SANALISTA
 
 
-Kotimaisten kielten tutkimuskeskus julkaisee taivutustiedoin t‰ydennetyn
-nykysuomen sanalistan. Sanalista ei ole tyhjent‰v‰ tai auktoritatiivinen
+Kotimaisten kielten tutkimuskeskus julkaisee taivutustiedoin t√§ydennetyn
+nykysuomen sanalistan. Sanalista ei ole tyhjent√§v√§ tai auktoritatiivinen
 luettelo suomen kielen sanoista, vaan sen on tarkoitus mm. toimia
-apuv‰lineen‰ suomen kielt‰ k‰sittelevien tietokoneohjelmien ja
-suomenkielisten k‰yttˆliittymien kehitystyˆss‰.
+apuv√§lineen√§ suomen kielt√§ k√§sittelevien tietokoneohjelmien ja
+suomenkielisten k√§ytt√∂liittymien kehitysty√∂ss√§.
 
-Sanalista julkaistaan GNU LGPL -lisenssill‰ (Lesser General Public
+Sanalista julkaistaan GNU LGPL -lisenssill√§ (Lesser General Public
 License). Lisenssiteksti on luettavissa osoitteessa 
 http://www.gnu.org/licenses/lgpl.html.
 
 Sanalistan laajuus on 94110 sanatietuetta. Sanalista on XML-muodossa ja
-merkistˆn‰ on UTF-8. Listaan voidaan tehd‰ myˆhemmin muutoksia, jolloin
+merkist√∂n√§ on UTF-8. Listaan voidaan tehd√§ my√∂hemmin muutoksia, jolloin
 listan versionumero muuttuu.
 
 
@@ -29,39 +29,39 @@ SANATIETUEIDEN ELEMENTIT
 SANOJEN TAIVUTUS
 
 Sanan taivutus on osoitettu sanalistassa numerolla (esim. <tn>72</tn>)
-ja sanaan liittyv‰ astevaihtelu kirjaimella (esim. <av>A</av>). Numerot
-ja kirjaimet viittaavat j‰ljemp‰n‰ esitettyihin mallisarjoihin
+ja sanaan liittyv√§ astevaihtelu kirjaimella (esim. <av>A</av>). Numerot
+ja kirjaimet viittaavat j√§ljemp√§n√§ esitettyihin mallisarjoihin
 Taivutustyypit ja Astevaihtelutyypit, joissa taivutus ja astevaihtelu on
 esitetty vastaavan numeron ja kirjaimen kohdalla mallisanojen avulla.
-Jos sana taipuu kahdella eri tavalla, sill‰ on kaksi taivutusnumeroa.
+Jos sana taipuu kahdella eri tavalla, sill√§ on kaksi taivutusnumeroa.
 
-Taivutukseen liittyv‰‰ lis‰tietoa on annettu t-elementin ja av-elementin
-attribuuttien avulla. Elementill‰ t voi olla attribuutti "taivutus".
-Elementill‰ av voi olla attribuutti "astevaihtelu".
+Taivutukseen liittyv√§√§ lis√§tietoa on annettu t-elementin ja av-elementin
+attribuuttien avulla. Elementill√§ t voi olla attribuutti "taivutus".
+Elementill√§ av voi olla attribuutti "astevaihtelu".
 
 taivutus-attribuutin arvot:
 harvinainen - t-elementin mukainen taivutus on harvinainen
 mahdollinen - t-elementin mukainen taivutus on mahdollinen
-yksikˆss‰ - sana taipuu tn-elementin mukaisesti yksikˆss‰
+yksik√∂ss√§ - sana taipuu tn-elementin mukaisesti yksik√∂ss√§
 monikossa - sana taipuu tn-elementin mukaisesti monikossa
 
 astevaihtelu-attribuutin arvo:
-valinnainen ñ sana voidaan taivuttaa astevaihtelullisena tai ilman
+valinnainen ¬ñ sana voidaan taivuttaa astevaihtelullisena tai ilman
 astevaihtelua
 
-Yhdyssanoihin ei ole yleens‰ merkitty taivutusnumeroa, jos perusosa on
-listassa itsen‰isen‰ sanana. Taivutustieto on kuitenkin merkitty niihin
+Yhdyssanoihin ei ole yleens√§ merkitty taivutusnumeroa, jos perusosa on
+listassa itsen√§isen√§ sanana. Taivutustieto on kuitenkin merkitty niihin
 yhdyssanoihin, joiden perusosa on homonyymi (esim. iltakuusi 27 ja
 joulukuusi 24). Yhdysnomineihin on merkitty taivutusnumero silloin, kun
-on haluttu osoittaa, ett‰ sanan alkuosa taipuu (kuten hienosokeri :
-hienonsokerin, taivutusnumero 51) tai j‰‰ taipumatta (iso‰iti :iso‰idin,
+on haluttu osoittaa, ett√§ sanan alkuosa taipuu (kuten hienosokeri :
+hienonsokerin, taivutusnumero 51) tai j√§√§ taipumatta (iso√§iti :iso√§idin,
 taivutusnumero 50). Taipumattomat tai vaillinaisesti taipuvat sanat on
-merkitty numerolla 99. Pronominien j‰ljess‰ ei ole taivutusnumeroa,
-koska niille ei voida esitt‰‰ mallitaivutusta. Lukusanojen taivutus ei
-aina selvi‰ suoraan mallisanan avulla (esim. lukusanat seitsem‰n,
-kahdeksan ja yhdeks‰n taipuvat niin kuin nominatiivit olisivat seitsem‰,
-kahdeksa ja yhdeks‰, ja kymmenen taipuu niin kuin nominatiivi olisi
-kymmen). Lukusanatyyppien kaksitoista, kaksikymment‰, kaksisataa ja
+merkitty numerolla 99. Pronominien j√§ljess√§ ei ole taivutusnumeroa,
+koska niille ei voida esitt√§√§ mallitaivutusta. Lukusanojen taivutus ei
+aina selvi√§ suoraan mallisanan avulla (esim. lukusanat seitsem√§n,
+kahdeksan ja yhdeks√§n taipuvat niin kuin nominatiivit olisivat seitsem√§,
+kahdeksa ja yhdeks√§, ja kymmenen taipuu niin kuin nominatiivi olisi
+kymmen). Lukusanatyyppien kaksitoista, kaksikymment√§, kaksisataa ja
 kaksituhatta taivutusta ei ole osoitettu.
 
 
@@ -71,8 +71,8 @@ TAIVUTUSTYYPIT
 
 Nominit
 
-Esimerkkimuodot ovat yksikˆn nominatiivi, genetiivi, partitiivi ja
-illatiivi sek‰ monikon nominatiivi, genetiivi, partitiivi ja illatiivi.
+Esimerkkimuodot ovat yksik√∂n nominatiivi, genetiivi, partitiivi ja
+illatiivi sek√§ monikon nominatiivi, genetiivi, partitiivi ja illatiivi.
 
 1
 valo
@@ -116,11 +116,11 @@ laatikkoihin laatikoihin
 5
 risti
 ristin
-risti‰
+risti√§
 ristiin
 ristit
 ristien
-ristej‰
+ristej√§
 risteihin
 
 6
@@ -264,22 +264,22 @@ soihin
 20
 filee
 fileen
-fileet‰
+fileet√§
 fileehen fileeseen
 fileet
 fileiden fileitten
-fileit‰
+fileit√§
 fileihin fileisiin
 
 21
-rosÈ
-rosÈn
-rosÈta
-rosÈhen
-rosÈt
-rosÈiden
-rosÈita
-rosÈihin
+ros√©
+ros√©n
+ros√©ta
+ros√©hen
+ros√©t
+ros√©iden
+ros√©ita
+ros√©ihin
 
 22
 parfait
@@ -294,11 +294,11 @@ parfait'ihin
 23
 tiili
 tiilen
-tiilt‰
+tiilt√§
 tiileen
 tiilet
 tiilien
-tiili‰
+tiili√§
 tiiliin
 
 24
@@ -324,31 +324,31 @@ toimiin
 26
 pieni
 pienen
-pient‰
+pient√§
 pieneen
 pienet
 pienten pienien
-pieni‰
+pieni√§
 pieniin
 
 27
-k‰si
-k‰den
-k‰tt‰
-k‰teen
-k‰det
-k‰sien (k‰tten)
-k‰si‰
-k‰siin
+k√§si
+k√§den
+k√§tt√§
+k√§teen
+k√§det
+k√§sien (k√§tten)
+k√§si√§
+k√§siin
 
 28
 kynsi
 kynnen
-kyntt‰
+kyntt√§
 kynteen
 kynnet
 kynsien (kyntten)
-kynsi‰
+kynsi√§
 kynsiin
 
 29
@@ -364,11 +364,11 @@ lapsiin
 30
 veitsi
 veitsen
-veist‰
+veist√§
 veitseen
 veitset
 veitsien (veisten)
-veitsi‰
+veitsi√§
 veitsiin
 
 31
@@ -394,11 +394,11 @@ sisariin
 33
 kytkin
 kytkimen
-kytkint‰
+kytkint√§
 kytkimeen
 kytkimet
 kytkimien kytkinten
-kytkimi‰
+kytkimi√§
 kytkimiin
 
 34
@@ -412,23 +412,23 @@ onnettomia
 onnettomiin
 
 35
-l‰mmin
-l‰mpim‰n
-l‰mmint‰
-l‰mpim‰‰n
-l‰mpim‰t
-l‰mpimien (l‰mpim‰in)
-l‰mpimi‰
-l‰mpimiin
+l√§mmin
+l√§mpim√§n
+l√§mmint√§
+l√§mpim√§√§n
+l√§mpim√§t
+l√§mpimien (l√§mpim√§in)
+l√§mpimi√§
+l√§mpimiin
 
 36
 sisin
-sisimm‰n
-sisint‰
-sisimp‰‰n
-sisimm‰t
-sisimpien sisinten (sisimp‰in)
-sisimpi‰
+sisimm√§n
+sisint√§
+sisimp√§√§n
+sisimm√§t
+sisimpien sisinten (sisimp√§in)
+sisimpi√§
 sisimpiin
 
 37
@@ -484,11 +484,11 @@ vieraisiin (vieraihin)
 42
 mies
 miehen
-miest‰
+miest√§
 mieheen
 miehet
 miesten miehien
-miehi‰
+miehi√§
 miehiin
 
 43
@@ -502,14 +502,14 @@ ohuita
 ohuisiin ohuihin
 
 44
-kev‰t
-kev‰‰n
-kev‰tt‰
-kev‰‰seen
-kev‰‰t
-kev‰iden kev‰itten
-kev‰it‰
-kev‰isiin (kev‰ihin)
+kev√§t
+kev√§√§n
+kev√§tt√§
+kev√§√§seen
+kev√§√§t
+kev√§iden kev√§itten
+kev√§it√§
+kev√§isiin (kev√§ihin)
 
 45
 kahdeksas
@@ -572,14 +572,14 @@ askeleisiin askeleihin
 Yhdysnominit
 
 50
-iso‰iti
-iso‰idin
-iso‰iti‰
-iso‰itiin
-iso‰idit
-iso‰itien
-iso‰itej‰
-iso‰iteihin
+iso√§iti
+iso√§idin
+iso√§iti√§
+iso√§itiin
+iso√§idit
+iso√§itien
+iso√§itej√§
+iso√§iteihin
 
 51
 nuoripari
@@ -592,9 +592,9 @@ nuoriapareja
 nuoriinpareihin
 
 Verbit Esimerkkimuodot ovat 1. infinitiivi, aktiivin indikatiivin
-preesensin yksikˆn ensimm‰inen persoona, aktiivin indikatiivin
+preesensin yksik√∂n ensimm√§inen persoona, aktiivin indikatiivin
 imperfektin kolmas persoona, aktiivin konditionaalin, potentiaalin ja
-imperatiivin preesensin yksikˆn kolmas persoona sek‰ aktiivin 2.
+imperatiivin preesensin yksik√∂n kolmas persoona sek√§ aktiivin 2.
 partisiippi ja passiivin imperfekti.
 
 52
@@ -678,14 +678,14 @@ tuntenut
 tunnettiin
 
 60
-l‰hte‰
-l‰hden
-l‰hti (l‰ksi)
-l‰htisi
-l‰htenee
-l‰htekˆˆn
-l‰htenyt
-l‰hdettiin
+l√§hte√§
+l√§hden
+l√§hti (l√§ksi)
+l√§htisi
+l√§htenee
+l√§htek√∂√∂n
+l√§htenyt
+l√§hdettiin
 
 61
 sallia
@@ -727,14 +727,14 @@ juonut
 juotiin
 
 65
-k‰yd‰
-k‰yn
-k‰vi
-k‰visi
-k‰ynee
-k‰ykˆˆn
-k‰ynyt
-k‰ytiin
+k√§yd√§
+k√§yn
+k√§vi
+k√§visi
+k√§ynee
+k√§yk√∂√∂n
+k√§ynyt
+k√§ytiin
 
 66
 rohkaista
@@ -787,14 +787,14 @@ juossut
 juostiin
 
 71
-n‰hd‰
-n‰en
-n‰ki
-n‰kisi
-n‰hnee
-n‰hkˆˆn
-n‰hnyt
-n‰htiin
+n√§hd√§
+n√§en
+n√§ki
+n√§kisi
+n√§hnee
+n√§hk√∂√∂n
+n√§hnyt
+n√§htiin
 
 72
 vanheta
@@ -827,12 +827,12 @@ katkennut
 katkettiin
 
 75
-selvit‰
-selvi‰n
+selvit√§
+selvi√§n
 selvisi
-selvi‰isi
+selvi√§isi
 selvinnee
-selvitkˆˆn
+selvitk√∂√∂n
 selvinnyt
 selvittiin
 
@@ -846,13 +846,13 @@ taitakoon
 tainnut taitanut
 taidettiin
 
-77 (vaillinaisesti taipuvia verbej‰; vain joitakin kolmannen persoonan
+77 (vaillinaisesti taipuvia verbej√§; vain joitakin kolmannen persoonan
 muotoja)
 kumajaa   
 kumaji
 kumajaisi
 
-78 (vaillinaisesti taipuvia verbej‰; vain joitakin kolmannen persoonan
+78 (vaillinaisesti taipuvia verbej√§; vain joitakin kolmannen persoonan
 muotoja)
 kaikaa 
 kaikaisi
@@ -866,8 +866,8 @@ ASTEVAIHTELUTYYPIT
 ==================
 
 
-Astevaihtelua osoittavien kirjainkoodien merkitykset ja esimerkkej‰
-astevaihtelutyypeist‰
+Astevaihtelua osoittavien kirjainkoodien merkitykset ja esimerkkej√§
+astevaihtelutyypeist√§
 
 
 A
@@ -885,7 +885,7 @@ B
 
 pp : p
 kaappi : kaapin
-hyppi‰ : hypin
+hyppi√§ : hypin
 
 p : pp
 opas : oppaan
@@ -895,7 +895,7 @@ napata : nappaan
 C
 
 tt : t
-tyttˆ : tytˆn
+tytt√∂ : tyt√∂n
 saattaa : saatan
 
 t : tt
@@ -905,11 +905,11 @@ mitata : mittaan
 
 D
 
-k : ñ
-reik‰ : rei‰n
+k : ¬ñ
+reik√§ : rei√§n
 hakea : haen
 
-ñ : k
+¬ñ : k
 aie : aikeen
 maata : makaan
 
@@ -918,18 +918,18 @@ E
 
 p : v
 sopu : sovun
-viipy‰ : viivyn
+viipy√§ : viivyn
 
 v : p
 taive : taipeen
-lev‰t‰ : lep‰‰n
+lev√§t√§ : lep√§√§n
 
 
 F
 
 t : d
 satu : sadun
-pit‰‰ : pid‰n
+pit√§√§ : pid√§n
 
 d : t
 keidas : keitaan
@@ -951,7 +951,7 @@ H
 
 mp : mm
 kumpi : kumman
-empi‰ : emmin
+empi√§ : emmin
 
 mm : mp
 lumme : lumpeen
@@ -962,7 +962,7 @@ I
 
 lt : ll
 ilta : illan
-ylt‰‰ : yll‰n
+ylt√§√§ : yll√§n
 
 ll : lt
 sivellin : siveltimen
@@ -973,11 +973,11 @@ J
 
 nt : nn
 hento : hennon
-myˆnt‰‰ : myˆnn‰n
+my√∂nt√§√§ : my√∂nn√§n
 
 nn : nt
 vanne : vanteen
-rynn‰t‰ : rynt‰‰n
+rynn√§t√§ : rynt√§√§n
 
 
 K
@@ -994,7 +994,7 @@ L
 
 k : j
 arki : arjen
-s‰rke‰ : s‰rjen
+s√§rke√§ : s√§rjen
 
 j : k
 hylje : hylkeen

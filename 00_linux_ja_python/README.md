@@ -20,6 +20,20 @@ Gitin käytöstä tunnilla tehtävät esimerkit koodataan omaan kehityshaaraansa
 Aloitustunnilla voitaisiin antaa jokin lämmittelytehtävä, jotta ainakin ehto- ja toistorakenteet sekä listat olisivat opiskelijoille tuttuja ennen ensimmäistä _varsinaista_ aihetta.
 
 
+<!-- 
+
+# CSC Pilvipalvelut
+
+https://www.csc.fi/web/education/pilvipalvelut
+
+# CSC Pouta
+
+https://docs.csc.fi/cloud/pouta/
+
+# CSC Rahti
+
+https://docs.csc.fi/cloud/rahti/rahti-what-is/ -->
+
 
 # VirtualBoxin asennus
 
@@ -51,3 +65,6 @@ Extensions:
 1. Python // koodieditori
 1. Pylint // koodin tarkistus
 1. Rope // refaktorointi
+1. autopep8 // koodin muotoilu
+
+User settings &rarr; **Format on save** ja **Format on paste**.
