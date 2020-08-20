@@ -6,6 +6,7 @@ def read_words_to_dict(file):
         words[word] = True
     return words
 
+
 def main():
     finnish_file = open('kotus-sanalista-suomi.txt', encoding='utf-8')
     english_file = open('englanti-UNLICENSED.txt', encoding='utf-8')
@@ -21,18 +22,12 @@ def main():
 
     count = 0
 
-    """for finnish_word in finnish_words:
-        if finnish_word in english_words:
-            print(finnish_word)
-            count += 1"""
-
     for w in finnish_words.keys():
         if w in english_words.keys():
             print(w)
             count += 1
 
-    # count = len(intersection)
+    print(f'{count} matches')
 
-    print(str(count) + ' matches')
 
 main()

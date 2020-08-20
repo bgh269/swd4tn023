@@ -1,10 +1,11 @@
 def read_words_to_list(file):
     return file.read().splitlines()
 
+
 def binary_search(word, list_of_words):
     left = 0
     right = len(list_of_words) - 1
-    
+
     while left <= right:
         middle = int((left + right) / 2)
         if list_of_words[middle] < word:
@@ -13,8 +14,9 @@ def binary_search(word, list_of_words):
             right = middle - 1
         else:
             return True
-    
+
     return False
+
 
 def main():
     finnish_file = open('kotus-sanalista-suomi.txt', encoding='utf-8')
@@ -36,6 +38,7 @@ def main():
             print(finnish_word)
             count += 1
 
-    print(str(count) + ' matches')
+    print(f'{count} matches')
+
 
 main()

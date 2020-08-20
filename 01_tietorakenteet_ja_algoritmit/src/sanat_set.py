@@ -1,5 +1,6 @@
 from wordfiles import get_finnish_words, get_english_words
 
+
 def main():
     finnish = get_finnish_words()
     english = get_english_words()
@@ -11,5 +12,6 @@ def main():
         print(sana)
 
     print(str(count) + ' matches')
+
 
 main()
